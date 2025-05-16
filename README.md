@@ -24,7 +24,7 @@ This project demonstrates how to classify IT support queries using Google Cloud'
 
 ---
 
-##  Project Structure
+**## Project Structure**
 
 ```bash
 vertexai-ticket-classifier/
