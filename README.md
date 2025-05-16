@@ -20,11 +20,11 @@ This project demonstrates how to classify IT support queries using Google Cloud'
 * Google Cloud account with Vertex AI enabled
 * Gemini model access (`gemini-2.0-flash-001` or newer)
 * `google-cloud-aiplatform` Python SDK
-```
+  
 
 ---
 
-**## Project Structure**
+## Project Structure
 
 ```bash
 vertexai-ticket-classifier/
