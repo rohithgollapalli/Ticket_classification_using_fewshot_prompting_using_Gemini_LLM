@@ -31,7 +31,7 @@ vertexai-ticket-classifier/
 ├── prompt_examples.txt           # Few-shot examples (input/output pairs)
 ├── inference_colab.ipynb         # Notebook for running Gemini inference
 ├── README.md                     # This file
-└── requirements.txt              # Optional dependency file
+
 ```
 
 ---
