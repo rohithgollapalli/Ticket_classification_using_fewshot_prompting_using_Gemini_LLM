@@ -28,8 +28,8 @@ This project demonstrates how to classify IT support queries using Google Cloud'
 
 ```bash
 vertexai-ticket-classifier/
-├── prompt_examples.txt           # Few-shot examples (input/output pairs)
-├── inference_colab.ipynb         # Notebook for running Gemini inference
+├── sample_input_data.csv           # Few-shot examples (input/output pairs)
+├── Few_shots_prompting_using_gemini.ipynb         # Notebook for running Gemini inference
 ├── README.md                     # This file
 
 ```
@@ -38,17 +38,15 @@ vertexai-ticket-classifier/
 
 ## 📄 Prompt File Format
 
-Contents of `prompt_examples.txt`:
+Contents of `sample_input_data.csv`:
 
 ```
-Input: My laptop won't connect to the Wi-Fi
-Output: Network Issues
+Inline: My laptop won't connect to the Wi-Fi
+label: CTS
 
-Input: I can't log into the student portal
-Output: Portal Access
+Inline: I can't log into the student portal
+label: CTS Campus
 
-Input: Forgot my email password
-Output: Account & Login
 ```
 
 ---
@@ -87,10 +85,3 @@ projector in frye hall is not working
 * Rapid prototyping for LLM-based classification
 * Few-shot prompting with real-world data
 
----
-
-##  Future Improvements
-
-* Add support for dynamic prompts via web UI
-* Fine-tune with larger custom datasets
-* Automate prompt generation from CSV
